@@ -1,7 +1,6 @@
 .places {
   max-width: 984px;
   margin: 0 auto;
-  border: 1px solid red;
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-rows: 660px;

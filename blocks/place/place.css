@@ -1,5 +1,4 @@
 .place {
-  border: solid 1px greenyellow;
   display: grid;
   grid-template-columns: 460px 486px;
   grid-template-rows: 152px 460px;
