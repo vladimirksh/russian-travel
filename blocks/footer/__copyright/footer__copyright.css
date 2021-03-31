@@ -8,3 +8,21 @@
   /* identical to box height, or 114% */
   color: #FFFFFF;
 }
+/*
+@media screen and (max-width: 1024px) {
+  .footer__copyright {
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__copyright {
+    
+  }
+}
+*/
+@media screen and (max-width: 320px) {
+  .footer__copyright {
+    line-height: 14px;
+  }
+}

@@ -1,5 +1,5 @@
 .palce__image {
-  max-width: 460px;
-  max-height: 460px;
+  max-width: 100%;
   box-sizing: border-box;
+  object-fit: cover;
 }

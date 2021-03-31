@@ -1,6 +1,24 @@
 .page {
-  min-width: 1280px;
   padding-top: 28px;
   padding-bottom: 24px;
   background: #2A2C2F;
+}
+
+/* медиа запросы для 1024 и 768 пх не нужны так как паддинги там не меняются
+@media screen and (max-width: 1024px) {
+  .page {
+    padding-top: 28px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    padding-top: 28px;
+  }
+}*/
+
+@media screen and (max-width: 320px) {
+  .page {
+    padding-top: 16px;
+  }
 }

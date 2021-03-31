@@ -1,8 +1,29 @@
 .cover {
   background-image: url("../../images/dmitrii-vaccinium-22833-unsplash.svg");
   background-repeat: no-repeat;
+  background-size: cover;
   max-width: 1184px;
   min-height: 740px;
+  box-sizing: border-box;
   margin: 0 auto;
-  margin-bottom: 92px;
+  border: 1px solid red;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    min-height: 440px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    min-height: 200px;
+  }
 }

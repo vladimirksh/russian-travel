@@ -1,6 +1,30 @@
 .lead {
+  border: 1px solid greenyellow;
   max-width: 984px;
-  max-height: 1005px;
   margin: 0 auto;
-  margin-bottom: 92px;
+  padding-top: 56px;
+  box-sizing: border-box;
+  color: #FFFFFF;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+    padding-top: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    width: 100%;
+  }
+}
+/* стили можно не прописывать так как
+ будут задействованы стили из 768 
+ а внутренний отсуп из 1024
+@media screen and (max-width: 320px) {
+  .lead {
+
+  }
+}
+*/

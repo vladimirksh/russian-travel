@@ -1,10 +1,27 @@
 .list__text {
-  max-width: 690px;
+  max-width: 720px;
   font-family: Inter;
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
   line-height: 18px;
-  color: #FFFFFF;
   margin: 0;
 }
+/*
+@media screen and (max-width: 1024px) {
+  .list__text{
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .list__text{
+    
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .list__text{
+    
+  }
+}*/

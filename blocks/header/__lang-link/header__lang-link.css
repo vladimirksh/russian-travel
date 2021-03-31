@@ -8,6 +8,26 @@
   line-height: 28px;
   color: aliceblue;
 }
+/* изменений для этих размеров нет
+@media screen and (max-width: 1028px) {
+  .header__lang-link{
+    
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__lang-link{
+    
+  }
+}
+*/
+@media screen and (max-width: 320px) {
+  .header__lang-link{
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
 .header__list li:first-of-type {
   margin-right: 18px;
 }

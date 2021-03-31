@@ -1,6 +1,22 @@
 .lead__main-image {
-  background-image: url("../../../images/kalegin-michail-179870-unsplash.svg");
-  width: 984px;
-  height: 615px;
-  position: relative;
+  margin: 0;
+  padding-top: 32px;
+  box-sizing: border-box;
+  width: 100%;
+}
+/* стили не меняются
+@media screen and (max-width: 1024px) {
+  .lead__main-image {
+
+  }
+}
+@media screen and (max-width: 768px) {
+  .lead__main-image {
+
+  }
+}*/
+@media screen and (max-width: 320px) {
+  .lead__main-image {
+    padding-top: 24px;
+  }
 }
