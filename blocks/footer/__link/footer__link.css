@@ -1,35 +1,26 @@
 .footer__link {
-  margin-right: 18px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 18px;
-  /* identical to box height, or 112% */
+  font-size: 24px;
+  line-height: 100%;
   text-decoration: none;
   color: #fff
 }
-/*
-@media screen and (max-width: 1024px) {
-  .footer__link {
-
-  }
+/*если псевдокласс с отступами указать ниже медиазапроса то падинги будут появляться
+несмотря на то что этот же псевдокласс указан в медиазапросе обнуенным*/
+.footer__list li:nth-child(even) {
+  padding: 32px 0 32px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .footer__link {
-    
+    margin-right: 18px;
+    font-size: 16px;
+    line-height: 112%;
   }
-}
-*/
-@media screen and (max-width: 320px) {
-  .footer__link {
-    font-size: 24px;
-    line-height: 24px;
-  }
-    /*стили для отступов элементов листов*/
   .footer__list li:nth-child(even) {
-    padding: 32px 0 32px;
+    padding: 0;
   }
 }
 

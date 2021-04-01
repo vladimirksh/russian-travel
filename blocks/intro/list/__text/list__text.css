@@ -1,5 +1,5 @@
 .list__text {
-  max-width: 720px;
+  max-width: 288px;
   font-family: Inter;
   font-style: normal;
   font-weight: bold;
@@ -7,21 +7,3 @@
   line-height: 18px;
   margin: 0;
 }
-/*
-@media screen and (max-width: 1024px) {
-  .list__text{
-
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .list__text{
-    
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .list__text{
-    
-  }
-}*/

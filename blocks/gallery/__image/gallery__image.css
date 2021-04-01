@@ -1,5 +1,6 @@
 .gallery__image {
   width: 100%;
+  height: auto;
   box-sizing: border-box;
   object-fit: cover;
 }

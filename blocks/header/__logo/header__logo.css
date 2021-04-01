@@ -3,24 +3,13 @@
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
-  min-width: 176px;
-  min-height: 52px;
-}
-/* для этих размеров изменений нет
-@media screen and (max-width: 1028px) {
-  .header__logo{
-    
-  }
+  min-width: 142px; /* надо понять почему если задать width max то картинка не будет отображаться*/
+  min-height: 42px;
 }
 
-@media screen and (max-width: 768px) {
-  .header__logo{
-    
-  }
-}
-*/
-@media screen and (max-width: 320px) {
-  .header__logo{
-    max-width: 142px;
+@media screen and (min-width: 768px) {
+  .header__logo {
+    min-width: 176px;
+    min-height: 52px;
   }
 }
