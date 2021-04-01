@@ -1,7 +1,11 @@
 .header {
-  max-width: calc(100vw - 10%);  /*(320px / (16px * 2))) решил побаловаться с калькуляцие и мнесто 10% писал вырожение но css не применяет свойство так как 320пх/32пх будет 10пх*/
+  max-width: calc(100vw - 10%);  /*(320px / (16px * 2))) решил побаловаться с калькуляцие и мнесто 10% писал вырожение но css не применяет свойство так как 320пх/32пх будет 10пх а не 10%*/
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin: 0 auto;
 }
 
@@ -16,9 +20,3 @@
     max-width: calc(100vw - 96px);
   }
 }
-/* стили для 1280 не нужны 
-@media screen and (min-width: 1280px) {
-  .header {
-
-  }
-}*/

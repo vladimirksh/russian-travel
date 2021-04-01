@@ -1,33 +1,23 @@
 .place__link {
   text-decoration: none;
+  max-width: 288px;
+  max-height: 22px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 22px;
-  /* identical to box height, or 122% */
-  text-decoration-line: underline;
+  line-height: 122%;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
   color: #FFFFFF;
 }
-/*
-@media screen and (max-width: 1024px) {
-  .place__link {
 
+
+@media screen and (min-width: 678px) {
+  .place__link {
+    max-width: 100%;
   }
 }
-
-@media screen and (max-width: 768px) {
-  .place__link {
-    
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .place__link {
-    
-  }
-}
-*/
 
 .place__link:hover {
   opacity: 0.8;

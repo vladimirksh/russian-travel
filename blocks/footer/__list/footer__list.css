@@ -6,6 +6,8 @@
 
 @media screen and (min-width: 768px) {
   .footer__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 0;
   }
