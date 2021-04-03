@@ -1,6 +1,6 @@
 .footer {
   max-width: 288px;
-  max-height: 310px;
+
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -22,7 +22,6 @@
         -ms-flex-direction: row;
             flex-direction: row;
     max-width: 720px;
-    max-height: 18px;
   }
 }
 

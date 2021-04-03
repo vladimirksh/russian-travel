@@ -3,7 +3,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
-  min-width: 142px; /* надо понять почему если задать width max то картинка не будет отображаться*/
+  min-width: 142px; 
   min-height: 42px;
 }
 
