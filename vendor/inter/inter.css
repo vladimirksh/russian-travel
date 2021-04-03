@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./Interregular.eot);
+  src: url(./Interregular.eot?#iefix) format('embedded-opentype'),
+      url(./Interregular.woff2) format('woff2'),
+      url(./Interregular.woff) format('woff'),
+      url(./Interregular.ttf) format('truetype'),
+      url(./Interregular.svg#Interregular) format('svg'),
+      url(./Interregular.otf) format('otf');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url(./Interbold.eot);
+  src: url(./Interbold.eot?#iefix) format('embedded-opentype'),
+       url(./Interbold.otf) format('otf'),
+       url(./Interbold.svg#Interbold) format('svg'),
+       url(./Interbold.ttf) format('truetype'),
+       url(./Interbold.woff) format('woff'),
+       url(./Interbold.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  src: url(./Interblack.eot);
+  src: url(./Interblack.eot?#iefix) format('embedded-opentype'),
+       url(./Interblack.otf) format('otf'),
+       url(./Interblack.svg#Interblack) format('svg'),
+       url(./Interblack.ttf) format('truetype'),
+       url(./Interblack.woff) format('woff'),
+       url(./Interblack.woff2) format('woff2');
+}
