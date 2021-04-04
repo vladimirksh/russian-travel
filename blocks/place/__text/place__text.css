@@ -8,10 +8,10 @@
   margin: 0 auto;
   max-width: 288px;
 }
-
+/* стили перенесены в .place__paragraph
 .place__paragraph .place__text:first-of-type {
   padding-bottom: 25px;
-}
+}*/
 
 
 @media screen and (min-width: 768px) {
@@ -26,9 +26,10 @@
   .place__text {
     max-width: 456px;
   }
+  /*стили перенесены в .place__paragraph 
   .place__paragraph .place__text:first-of-type {
     padding-bottom: 26px;
-  }
+  }*/
 }
 
 @media screen and (min-width: 1280px) {
