@@ -12,3 +12,13 @@
     padding: 0;
   }
 }
+
+.footer__list .footer__element:nth-child(even) {
+  padding: 32px 0 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__list .footer__element:nth-child(even) {
+    padding: 0;
+  }
+}

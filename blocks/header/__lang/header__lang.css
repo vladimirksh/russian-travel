@@ -1,7 +1,12 @@
 .header__lang {
-
+  padding-left: 18px;
 }
 
+/* Не до конца понимаю методологию БЭМ,
+по идее я обращаюсь к классу header__lang через класс header__list 
+и соответственно должен тут указать эти стили.
+
+Или я обращаюсь к header__list, а то что пишу стили изменяющие header__lang это не играет роли?
 .header__list .header__lang:first-of-type {
   margin-right: 18px;
-}
+}*/
