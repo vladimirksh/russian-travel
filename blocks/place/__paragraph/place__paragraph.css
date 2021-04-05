@@ -2,13 +2,3 @@
 
 }
 
-/*Ранее эти стили были указаны в place__text*/
-.place__paragraph .place__text:first-of-type {
-  padding-bottom: 25px;
-}
-
-@media screen and (min-width: 1024px) {
-  .place__paragraph .place__text:first-of-type {
-    padding-bottom: 26px;
-  }
-}
