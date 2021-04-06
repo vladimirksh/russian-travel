@@ -20,6 +20,9 @@
   position: absolute;
   top: 0;
   left: 0;
+  -webkit-transition: 1s ease;
+  -o-transition: 1s ease;
+  transition: 1s ease;
 }
 
 

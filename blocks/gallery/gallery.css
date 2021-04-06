@@ -17,6 +17,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 264px;
     gap: 16px;
+    padding: 88px 0 88px;
   }
 }
 
@@ -27,6 +28,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 225px;
     gap: 14px;
+    padding: 92px 0 92px;
   }
 }
 

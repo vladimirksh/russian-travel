@@ -9,6 +9,7 @@
   color: #AAAAAA;
   padding: 0 0 12px;
   margin: 0;
+  text-transform: uppercase;
 }
 
 @media screen and (min-width: 1024px) {

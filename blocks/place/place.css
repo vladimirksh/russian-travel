@@ -12,7 +12,7 @@
     -ms-grid-columns: 47% 28px 49%;
     grid-template-columns: 47% 49%; /*4% для gap*/
     gap: 0 28px;
-    padding-bottom: 73px;
+    padding-bottom: 72px;
   }
 }
 
@@ -23,7 +23,7 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) and (max-width: 1280px) {
   .place {
     gap: 0 40px;
   }
