@@ -16,5 +16,9 @@
 }
 
 .header__link:hover {
-  text-decoration-line: underline;
+  opacity: 0.8;
+  -webkit-transition: 1s ease;
+  -moz-transition: 1s ease;
+  -o-transition: 1s ease;
+  transition: 1s ease;
 }
