@@ -6,7 +6,7 @@
   padding-bottom: 0;
 }
 
-@media screen and (min-width: 321px) {
+@media screen and (min-width: 768px) {
   .footer__element{
     padding: 0;
   }
